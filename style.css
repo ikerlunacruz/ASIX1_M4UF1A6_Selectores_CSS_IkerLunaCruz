@@ -12,7 +12,6 @@ h1 {
 }
 
 h2 {
-    background-color: darkcyan;
     padding: 1%;
     border-radius: 5px;
 }
@@ -25,23 +24,22 @@ body {
 
 #universal {
     color: lightgoldenrodyellow;
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
 }
 
-#selectors {
+.selectors {
     border: solid darkcyan 1px;
     border-radius: 5px;
+    padding: 5%;
 }
 
-.selector h2 {
-    background-color: darkcyan;
-    padding: 1%;
-    border-radius: 5px1;
-}
-
-#universal h2 {
+.selector {
     background-color: darkcyan;
     padding: 1%;
     border-radius: 5px;
+    color: white;
 }
 
 span {
