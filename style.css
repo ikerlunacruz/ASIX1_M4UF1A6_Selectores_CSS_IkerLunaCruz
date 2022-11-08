@@ -69,3 +69,18 @@ img {
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table {
+    width: 100%;
+    font-size: 17px;
+}
